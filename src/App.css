@@ -1,0 +1,364 @@
+/**************************************** 
+
+
+this is the main class in the app
+
+
+
+*****************************************/
+html,
+body {
+  width: 100%;
+  background-color: #ecf0f1;
+}
+.container {
+  background-color: #ecf0f1;
+  width: 100%;
+}
+
+/**************************************** 
+
+
+this is the nav-bar in the landing page
+
+
+
+*****************************************/
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0a1612;
+}
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+
+/**************************************** 
+
+
+this is the clients commponent
+
+
+
+*****************************************/
+.sort span {
+  float: right;
+  /* margin: 15px; */
+  cursor: pointer;
+}
+.first-span {
+}
+.input-sort {
+  float: left;
+  height: 27px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px blue solid;
+}
+
+.clients {
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.select {
+  height: 30px;
+  margin-left: 20px;
+}
+.header-table {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  border-bottom: 1px black solid;
+  border-right: 1px black solid;
+  border-radius: 3px;
+}
+
+.table-header {
+  background-color: #f7ce3e;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 14.28%;
+}
+.table-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.table-wrapper > div {
+  cursor: pointer;
+  width: 14.28%;
+  height: 40px;
+}
+/**************************************** 
+
+
+this is the pop up changes
+
+
+
+*****************************************/
+
+.pop-up-changes {
+  position: absolute;
+  width: 300px;
+  top: 30%;
+  left: 32%;
+  height: 300px;
+  background-color: rgb(68, 62, 62);
+  padding: 10px;
+  border-radius: 30px;
+}
+.input-text {
+  position: relative;
+  width: 160px;
+  color: red;
+  height: 20px;
+  top: 40px;
+  left: 130px;
+  border: none;
+  background-color: rgb(68, 62, 62);
+  border-bottom: 2px white solid;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.span-N {
+  position: relative;
+  color: white;
+  margin-bottom: 10px;
+  display: block;
+  left: 5px;
+  top: 10px;
+  font-size: 22px;
+  width: 60px;
+  height: 30px;
+}
+.changes-button {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 35px;
+  background-color: #f7ce3e;
+  color: rgb(68, 62, 62);
+  border-radius: 30px;
+  font-weight: 900;
+  text-decoration: none;
+}
+.closing-sign {
+  position: relative;
+  cursor: pointer;
+}
+/**************************************** 
+
+
+this is the Action page
+
+
+
+*****************************************/
+.Action {
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+/**************************************** 
+
+
+this is the Update commponent
+
+
+
+*****************************************/
+.update {
+  width: 60%;
+  height: 300px;
+  text-align: center;
+}
+
+.row-head h2 {
+  margin-left: 20%;
+}
+.row-head span {
+  padding-right: 10px;
+  font-size: 30px;
+}
+.row {
+  margin-top: 20px;
+}
+.Action select {
+  margin-left: 20px;
+  width: 100px;
+}
+.sumbit-changes {
+  width: 50%;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.sumbit-changes:hover {
+  padding: 1%;
+}
+.confirm-message {
+  position: absolute;
+  width: 60%;
+  height: 400px;
+  color: black;
+  background-color: wheat;
+  text-align: center;
+}
+/**************************************** 
+
+
+this is the addNew commponent
+
+
+
+*****************************************/
+.add-new-user {
+  box-sizing: border-box;
+  margin-top: 50px;
+  width: 60%;
+  height: fit-content;
+  padding-bottom: 50px;
+  font: bold;
+  padding: 4%;
+}
+.add-new-user h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.add-new-user span {
+  margin-right: 20px;
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 40px;
+}
+.add-new-user input {
+  width: 50%;
+  margin-bottom: 40px;
+  margin-right: 10%;
+  background-color: #ecf0f1;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.add-new-user select {
+  width: 100px;
+}
+.add-new-users {
+  width: 60%;
+  display: block;
+  margin-left: 25%;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/**************************************** 
+
+
+this is the Anayltics commponent
+
+
+
+*****************************************/
+.icon-area {
+  /* background-color: #444; */
+  color: black;
+  border-radius: 5px;
+  height: 120px;
+}
+.icon-area span {
+  float: left;
+}
+.flex-icons-head {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-gap: 1%;
+  padding-right: 1%;
+  padding-left: 1%;
+  color: #444;
+  margin-bottom: 40px;
+}
+.icon {
+  background-repeat: no-repeat;
+  background-color: #2ecc71;
+  border-radius: 70px;
+  float: left;
+  width: 75px;
+  height: 75px;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+.icon1 {
+  background-repeat: no-repeat;
+  background-color: #3498db;
+  border-radius: 70px;
+  float: left;
+  width: 75px;
+  height: 75px;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+.icon2 {
+  background-repeat: no-repeat;
+  background-color: #e74c3c;
+  border-radius: 70px;
+  float: left;
+  width: 75px;
+  height: 75px;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+.icon3 {
+  background-repeat: no-repeat;
+  background-color: #f1c40f;
+  border-radius: 70px;
+  float: left;
+  width: 75px;
+  height: 75px;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+.icon-area h1 {
+  display: inline;
+  font-size: 25px;
+}
+.icon-area p {
+  font-size: 15px;
+}
+.first-chart {
+  display: inline-block;
+  float: left;
+}
+.second-chart {
+  margin-left: 5%;
+  display: inline-block;
+  float: left;
+}
+.Analystic {
+  box-sizing: border-box;
+  margin-right: 2.9%;
+  margin-left: 2.9%;
+}
